@@ -9,7 +9,7 @@ body {
 /* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
 
 div.navbar {
-    height: 112px;
+    height: 128px;
     background: #3C2A21;
 }
 
@@ -40,6 +40,7 @@ img.logo {
 
 span.marca {
     margin-left: 24px;
+    font-size: 36px;
     color: whitesmoke;
 }
 
@@ -75,10 +76,70 @@ a.leiamais {
 
 footer {
     font-size: 12px;
-    padding:6px;
+    padding: 6px;
     height: 24px;
     background: #3C2A21;
-}
-footer>div{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+}
+
+footer>div {
+    text-align: center;
+}
+
+div.market-content {
+    width: 90%;
+    height: auto;
+}
+
+div.market {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.market-box {
+    width: 150px;
+    height: 300px;
+}
+
+img.mkt-item {
+    margin-left: 22px;
+    height: 150px;
+}
+
+p.desc-item {
+    color: #3C2A21;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p.price {
+    text-align: center;
+    font-weight: bolder;
+    color: darkgreen;
+}
+
+button.buy {
+    border: 2px solid #3C2A21;
+    border-color: #3C2A21;
+    color: #f5deb3;
+    background-color: #3C2A21;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+
+    text-align: center;
+}
+
+button.buy:hover {
+    border: 2px solid #3C2A21;
+    border-color: #3C2A21;
+    color: #3C2A21;
+    background-color: #f5deb3;
 }
